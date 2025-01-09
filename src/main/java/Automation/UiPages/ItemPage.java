@@ -22,23 +22,4 @@ public class ItemPage extends BaseClass {
     }
 
 
-
-
-
-//    private WebDriver driver;
-//    private By addToCartButton = By.xpath("//button[contains(@id, 'atcRedesignId_btn')]");
-//
-//    private By cartCount = By.cssSelector(".gh-cart-qty");
-//
-//    public ItemPage(WebDriver driver) {
-//        this.driver = driver;
-//    }
-//
-//    public void addToCart() {
-//        driver.findElement(addToCartButton).click();
-//    }
-//
-//    public String getCartCount() {
-//        return driver.findElement(cartCount).getText();
-//    }
 }
