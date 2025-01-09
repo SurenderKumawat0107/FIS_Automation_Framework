@@ -22,17 +22,4 @@ public class HomePage extends BaseClass {
         searchButton.click();
     }
 
-//    private WebDriver driver;
-//    private By searchBox = By.id("gh-ac");
-//    private By searchButton = By.id("gh-btn");
-
-    //public HomePage(WebDriver driver) {
-     //   this.driver = driver;
-  //  }
-
-//    public void searchForItem(String item) {
-//        driver.findElement(searchBox).sendKeys(item);
-//        driver.findElement(searchButton).click();
-//    }
-
 }
