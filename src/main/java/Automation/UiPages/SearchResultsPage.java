@@ -47,33 +47,4 @@ public class SearchResultsPage extends BaseClass {
     }
 
 
-//    private WebDriver driver;
-//    private By BookListItem = By.xpath(("//*[@id='srp-river-results']/ul/li"));
-//    private By SponserLabelitem = By.xpath(".//div[text()='Sponsored']");
-//    //private By firstItem = By.cssSelector("ul.srp-results > li:first-of-type");
-//
-//    public SearchResultsPage(WebDriver driver) {
-//        this.driver = driver;
-//    }
-//
-//    public void clickFirstItem() {
-//        List<WebElement> bookList = driver.findElements(BookListItem);
-//
-//        // Check if there are any books listed
-//        if (!bookList.isEmpty()) {
-//            for (WebElement item : bookList) {
-//                // Check if the item is a sponsored one
-//                List<WebElement> sponsoredLabel = item.findElements(SponserLabelitem);
-//
-//                // If this item is not sponsored, click on it and break the loop
-//                if (sponsoredLabel.isEmpty()) {
-//                    item.click();
-//                    break; // Click the first non-sponsored item and exit
-//                } else {
-//                    System.out.println("No books found.");
-//                }
-//
-//            }
-//
-//        }
     }
