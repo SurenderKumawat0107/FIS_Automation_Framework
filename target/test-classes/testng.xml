@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FIS_Automation"  parallel="tests" thread-count="1" verbose="3">
+
+
+    <!-- Define Test with a unique name -->
+    <test name="APIAutomation">
+
+        <!-- Define the class to run -->
+        <classes>
+            <class name="Automation.CoinDeskAPITest" />
+
+        </classes>
+
+
+
+    </test>
+    <test name="UIAAutomation">
+
+        <!-- Define the class to run -->
+        <classes>
+
+            <class name="Automation.AddToCartTest" />
+        </classes>
+
+
+
+    </test>
+
+
+
+</suite>
