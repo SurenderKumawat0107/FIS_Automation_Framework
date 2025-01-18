@@ -1,4 +1,4 @@
-# FIS Automation Framework
+# API UI Automation Framework
 
 ## Overview
 This project contains an **Automation Framework** that is designed to perform both UI and API automation. The framework is built using **Page Object Model (POM)** and integrates with **TestNG** for running tests and generating reports.
